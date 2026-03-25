@@ -1,0 +1,103 @@
+[
+  {
+    "slug": "yamaha",
+    "number": "01",
+    "title": "Yamaha Promotional Products",
+    "description": "These are some of the marketing materials I created and helped to make for the Yamaha Watercraft division of Yamaha Motorsports. The main project I worked on was promotional and marketing material for the 2023 product launch at the Watercraft Product Preview.",
+    "heroImage": "/images/yamaha/rollup.jpg",
+    "galleryBg": "#1a3a5c",
+    "galleryTint": "rgba(180, 140, 160, 0.35)",
+    "images": [
+      "/images/yamaha/rollup.jpg",
+      "/images/yamaha/calendar.jpg",
+      "/images/yamaha/namebadge.jpg",
+      "/images/yamaha/namebadge2.jpg",
+      "/images/yamaha/cal-boats.jpg",
+      "/images/yamaha/logo.jpg"
+    ]
+  },
+  {
+    "slug": "beer-branding",
+    "number": "02",
+    "title": "Froggy Bottom Brewing Co.",
+    "description": "A complete branding project for Froggy Bottom Brewing Co., a craft brewery concept. The project included logo design, label design for multiple beer varieties, packaging, billboard advertisement, and branded merchandise including t-shirts and baseball caps.",
+    "heroImage": "/images/beer-branding/froggybottombottle1.jpg",
+    "galleryBg": "#2a1a0a",
+    "galleryTint": "rgba(139, 107, 107, 0.3)",
+    "images": [
+      "/images/beer-branding/froggybottombottle1.jpg",
+      "/images/beer-branding/6pack.jpg",
+      "/images/beer-branding/carrierfinal.jpg",
+      "/images/beer-branding/froggybottombillboard.jpg",
+      "/images/beer-branding/froggybottombottlesideways.jpg",
+      "/images/beer-branding/logoonwallfroggybottom.jpg",
+      "/images/beer-branding/tshirtfroggybottom.jpg",
+      "/images/beer-branding/baseballcapfroggybottom.png"
+    ]
+  },
+  {
+    "slug": "magazine",
+    "number": "03",
+    "title": "Paste Magazine",
+    "description": "A publication design project featuring a redesigned issue of Paste Magazine with a cover story on Noah Kahan. The project includes the magazine cover design and interior spread layouts, demonstrating editorial design skills and typography.",
+    "heroImage": "/images/magazine/magazinecover.jpg",
+    "galleryBg": "#1a1a2e",
+    "galleryTint": "rgba(100, 120, 160, 0.3)",
+    "images": [
+      "/images/magazine/magazinecover.jpg",
+      "/images/magazine/magazinespread1.jpg",
+      "/images/magazine/noahmagazinespread.jpg"
+    ]
+  },
+  {
+    "slug": "seltzer-poster",
+    "number": "04",
+    "title": "Seltzer Poster & Can Design",
+    "description": "A product design project featuring poster artwork and can designs for a seltzer brand. The project includes a Cherry Limeade poster design and multiple can variations, showcasing packaging design and promotional material creation.",
+    "heroImage": "/images/seltzer-poster/poster.jpg",
+    "galleryBg": "#2e1a2e",
+    "galleryTint": "rgba(140, 100, 140, 0.3)",
+    "images": [
+      "/images/seltzer-poster/poster.jpg",
+      "/images/seltzer-poster/pineapplecoconutcan.jpg",
+      "/images/seltzer-poster/place-holdercan.jpg",
+      "/images/seltzer-poster/seltzer-can-tests_page_1.jpg",
+      "/images/seltzer-poster/seltzer-can-tests_page_2.jpg"
+    ]
+  },
+  {
+    "slug": "travel-booklet",
+    "number": "05",
+    "title": "Switzerland Travel Booklet",
+    "description": "A travel guide booklet design for Switzerland, featuring cover design, accommodation listings, attractions, and transportation information. The project demonstrates layout design, information hierarchy, and editorial skills for print media.",
+    "heroImage": "/images/travel-booklet/travelbooklet-cover.jpg",
+    "galleryBg": "#1a2e1a",
+    "galleryTint": "rgba(100, 140, 100, 0.3)",
+    "images": [
+      "/images/travel-booklet/travelbooklet-cover.jpg",
+      "/images/travel-booklet/travelbooklet-coverstack.jpg",
+      "/images/travel-booklet/travelbookelet-attractions.jpg",
+      "/images/travel-booklet/travelbooklet-accommodations.jpg",
+      "/images/travel-booklet/travelbooklet-getting-around.jpg",
+      "/images/travel-booklet/free_square_book_mockup_2.jpg",
+      "/images/travel-booklet/free_square_book_mockup_7.jpg"
+    ]
+  },
+  {
+    "slug": "voix-branding",
+    "number": "06",
+    "title": "Voix Branding",
+    "description": "A branding project I completed for a site managed by LogixBuild Media. I was assigned the task of not only creating the logo presented here but also merchandise for going with it such as apparel, email hand-out signatures, and bluetooth headers.",
+    "heroImage": "/images/voix-branding/logo-with-text.jpg",
+    "galleryBg": "#1a1a1a",
+    "galleryTint": "rgba(80, 80, 100, 0.25)",
+    "images": [
+      "/images/voix-branding/logo-with-text.jpg",
+      "/images/voix-branding/hoodie-triplebolt.jpg",
+      "/images/voix-branding/tshirt-triplebolt.jpg",
+      "/images/voix-branding/buisnesscardmockup1.jpg",
+      "/images/voix-branding/voixmugs.jpg",
+      "/images/voix-branding/voixpen.jpg"
+    ]
+  }
+]
