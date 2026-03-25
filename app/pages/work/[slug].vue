@@ -1,31 +1,42 @@
 <template>
   <div class="min-h-screen bg-white">
-    <div v-if="project" class="flex flex-col md:flex-row">
-      <!-- Sidebar -->
-      <div class="md:sticky md:top-0 md:self-start pt-6 pl-4 md:pl-6">
-        <ProjectSidebar />
+    <div v-if="project">
+      <!-- Top section: sidebar + title + description -->
+      <div class="flex flex-col md:flex-row">
+        <!-- Sidebar -->
+        <div class="md:sticky md:top-0 md:self-start pt-8 pl-6">
+          <ProjectSidebar />
+        </div>
+
+        <!-- Title + description -->
+        <div class="flex-1 px-6 md:px-10 pt-8 pb-10">
+          <ScrollReveal>
+            <h1 class="project-title">
+              {{ project.title }}
+            </h1>
+            <p class="text-gray-600 leading-relaxed max-w-2xl mt-4 text-[15px]">
+              {{ project.description }}
+            </p>
+          </ScrollReveal>
+        </div>
       </div>
 
-      <!-- Main content -->
-      <div class="flex-1 px-6 md:px-12 py-8">
-        <ScrollReveal>
-          <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold tracking-wide uppercase mb-4">
-            {{ project.title }}
-          </h1>
-          <p class="text-gray-600 leading-relaxed max-w-3xl mb-10">
-            {{ project.description }}
-          </p>
-        </ScrollReveal>
+      <!-- Divider -->
+      <div class="border-t border-gray-200" />
 
-        <ScrollReveal>
-          <ProjectGallery
-            :images="project.images"
-            :title="project.title"
-            :gallery-bg="project.galleryBg"
-            :gallery-tint="project.galleryTint"
-          />
-        </ScrollReveal>
-      </div>
+      <!-- Gallery section — full width, centered content -->
+      <ScrollReveal>
+        <div class="py-10 bg-gray-50">
+          <div class="max-w-4xl mx-auto px-6">
+            <ProjectGallery
+              :images="project.images"
+              :title="project.title"
+              :gallery-bg="project.galleryBg"
+              :gallery-tint="project.galleryTint"
+            />
+          </div>
+        </div>
+      </ScrollReveal>
     </div>
 
     <div v-else class="flex items-center justify-center min-h-screen">
@@ -57,3 +68,13 @@ useSeoMeta({
   ogImage: () => project.value?.heroImage ?? '/images/headshot.jpg',
 })
 </script>
+
+<style scoped>
+@reference "~/assets/css/main.css";
+
+.project-title {
+  @apply text-4xl md:text-5xl lg:text-6xl font-bold tracking-wider uppercase;
+  font-family: var(--font-family-heading);
+  line-height: 1.1;
+}
+</style>

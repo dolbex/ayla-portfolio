@@ -11,10 +11,11 @@
 @reference "~/assets/css/main.css";
 
 .sidebar {
-  @apply flex flex-col gap-1 shrink-0;
+  @apply flex flex-col gap-0 shrink-0;
+  width: 160px;
 }
 
 .sidebar-link {
-  @apply block bg-sidebar-green text-white text-sm font-semibold tracking-wide px-5 py-2.5 hover:brightness-110 transition-all;
+  @apply block bg-sidebar-green text-white text-base font-semibold tracking-wide px-5 py-4 hover:brightness-110 transition-all border-b border-white/10;
 }
 </style>
