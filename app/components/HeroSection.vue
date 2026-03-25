@@ -24,7 +24,7 @@
       </h1>
     </div>
 
-    <p class="text-white/80 text-lg md:text-xl tracking-widest mb-8 italic font-serif">
+    <p class="text-white/80 text-lg md:text-xl tracking-widest mb-8 italic">
       Graphic Designer
     </p>
 

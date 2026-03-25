@@ -10,9 +10,15 @@
     "postinstall": "nuxt prepare"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["@parcel/watcher", "esbuild", "sharp"]
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "esbuild",
+      "sharp"
+    ]
   },
   "dependencies": {
+    "@fontsource/bebas-neue": "^5.2.7",
+    "@fontsource/lato": "^5.2.7",
     "@nuxt/image": "^2.0.0",
     "@tailwindcss/vite": "^4.2.2",
     "nuxt": "^4.4.2",
