@@ -14,10 +14,10 @@
           <div class="flex flex-col md:flex-row gap-8 md:gap-12">
             <!-- Text -->
             <div class="flex-1">
-              <h1 class="text-4xl md:text-5xl font-bold tracking-wide uppercase mb-2">
+              <h1 class="about-title">
                 About Me
               </h1>
-              <p class="text-sage-dark italic text-lg mb-6">My name is Ayla Gray</p>
+              <p class="about-subtitle">My name is Ayla Gray</p>
 
               <div class="text-gray-700 leading-relaxed space-y-4 mb-8">
                 <p>
@@ -67,3 +67,19 @@ useSeoMeta({
   ogImage: '/images/headshot.jpg',
 })
 </script>
+
+<style scoped>
+@reference "~/assets/css/main.css";
+
+.about-title {
+  @apply text-4xl md:text-5xl lg:text-[120px] font-bold tracking-wider uppercase text-green-900;
+  font-family: var(--font-family-heading);
+  line-height: 1.1;
+}
+
+.about-subtitle {
+  @apply text-2xl md:text-3xl lg:text-4xl tracking-wider uppercase mt-4 mb-6;
+  font-family: var(--font-family-heading);
+  color: var(--color-sage);
+}
+</style>

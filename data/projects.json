@@ -88,11 +88,10 @@
     "number": "06",
     "title": "Voix Branding",
     "description": "A branding project I completed for a site managed by LogixBuild Media. I was assigned the task of not only creating the logo presented here but also merchandise for going with it such as apparel, email hand-out signatures, and bluetooth headers.",
-    "heroImage": "/images/voix-branding/logo-with-text.jpg",
+    "heroImage": "/images/voix-branding/hoodie-triplebolt.jpg",
     "galleryBg": "#1a1a1a",
     "galleryTint": "rgba(80, 80, 100, 0.25)",
     "images": [
-      "/images/voix-branding/logo-with-text.jpg",
       "/images/voix-branding/hoodie-triplebolt.jpg",
       "/images/voix-branding/tshirt-triplebolt.jpg",
       "/images/voix-branding/buisnesscardmockup1.jpg",

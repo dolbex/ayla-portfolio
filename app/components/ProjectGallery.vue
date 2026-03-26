@@ -1,8 +1,9 @@
 <template>
-  <div>
+ <div :style="{ backgroundColor: galleryBg }"> 
+  <div class="max-w-7xl mx-auto px-6">
     <div
       class="grid grid-cols-1 md:grid-cols-2 gap-5 p-5"
-      :style="{ backgroundColor: galleryBg }"
+      
     >
       <div
         v-for="(image, index) in images"
@@ -31,6 +32,7 @@
       :start-index="lightboxIndex"
       @close="lightboxOpen = false"
     />
+  </div>
   </div>
 </template>
 

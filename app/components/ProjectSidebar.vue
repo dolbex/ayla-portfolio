@@ -1,7 +1,7 @@
 <template>
   <nav class="sidebar">
-    <NuxtLink to="/" class="sidebar-link">Start Home</NuxtLink>
-    <NuxtLink to="/work" class="sidebar-link">Project Home</NuxtLink>
+    <NuxtLink to="/" class="sidebar-link">Home</NuxtLink>
+    <NuxtLink to="/work" class="sidebar-link">Projects</NuxtLink>
     <NuxtLink to="/about" class="sidebar-link">BIO</NuxtLink>
     <NuxtLink to="/contact" class="sidebar-link">Contact</NuxtLink>
   </nav>

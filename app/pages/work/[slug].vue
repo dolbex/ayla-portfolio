@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-white">
     <div v-if="project">
       <!-- Top section: sidebar + title + description -->
-      <div class="flex flex-col md:flex-row">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row">
         <!-- Sidebar -->
         <div class="md:sticky md:top-0 md:self-start pt-8 pl-6">
           <ProjectSidebar />
@@ -26,16 +26,14 @@
 
       <!-- Gallery section — full width, centered content -->
       <ScrollReveal>
-        <div class="py-10 bg-gray-50">
-          <div class="max-w-4xl mx-auto px-6">
+        
             <ProjectGallery
               :images="project.images"
               :title="project.title"
               :gallery-bg="project.galleryBg"
               :gallery-tint="project.galleryTint"
             />
-          </div>
-        </div>
+        
       </ScrollReveal>
     </div>
 
@@ -73,7 +71,7 @@ useSeoMeta({
 @reference "~/assets/css/main.css";
 
 .project-title {
-  @apply text-4xl md:text-5xl lg:text-6xl font-bold tracking-wider uppercase;
+  @apply text-4xl md:text-5xl lg:text-[120px] font-bold tracking-wider uppercase text-green-900;
   font-family: var(--font-family-heading);
   line-height: 1.1;
 }

@@ -1,5 +1,5 @@
 <template>
-  <footer id="contact" class="grid grid-cols-2 md:grid-cols-4">
+  <footer id="contact" class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4">
     <div class="footer-block bg-footer-tan text-white">
       <div class="footer-icon">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
